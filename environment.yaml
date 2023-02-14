@@ -1,0 +1,12 @@
+dependencies:
+- python=3.10
+- pip
+- pip:
+  # - --index-url=https://pypi.org/simple
+  # - --trusted-host=[pypi.org]
+  # - --extra-index-url=https://pypi.org/simple
+  - uvicorn
+  - fastapi
+  - loguru
+  - transformers[torch]
+  - sentencepiece
